@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins";
+}
+
+.headingdiv {
+  width: 540px;
+  height: 168px;
+  margin: 80px auto 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingdiv div {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headingdiv div h1 {
+  color: rgba(77, 79, 98, 1);
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 51px;
+  width: 446px;
+  line-height: normal;
+}
+
+.headingdiv div h1 span {
+  font-weight: 600;
+}
+
+.headingdiv p {
+  color: #4d4f62;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.mainbox {
+  width: 1110px;
+  height: 530px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.middledivs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.insidedivs {
+  background-color: white;
+  width: 350px;
+  height: 250px;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0px 1.5rem 3rem -1.1rem rgba(131, 166, 210, 0.5);
+}
+
+.insidedivs h2 {
+  color: rgba(77, 79, 98, 1);
+  font-size: 2rem;
+  height: 600;
+  margin-bottom: 8px;
+}
+
+.describe {
+  width: 286px;
+  height: 46px;
+}
+
+.describe p {
+  color: rgba(77, 79, 98, 1);
+  font-size: 1.3rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.img {
+  width: 64px;
+  margin-left: 222px;
+  margin-top: 34px;
+}
+
+#leftdiv {
+  margin-top: 140px;
+  border-top: 4px solid rgba(68, 211, 210, 1);
+}
+
+#rightdiv {
+  margin-top: 140px;
+  border-top: 4px solid rgba(84, 158, 242, 1);
+}
+
+#topdiv {
+  border-top: 4px solid rgba(234, 84, 84, 1);
+}
+
+#bottomdiv {
+  border-top: 4px solid rgba(252, 174, 74, 1);
+}
+@media (max-width: 800px) {
+  .headingdiv {
+    width: 311px;
+    height: 161px;
+    margin: 85px auto 76px;
+  }
+  .headingdiv div {
+    letter-spacing: 0.167px;
+  }
+  .headingdiv div h1 {
+    font-size: 24px;
+    width: 311px;
+    line-height: normal;
+  }
+  .mainbox {
+    width: 311px;
+    height: auto;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .insidedivs {
+    width: 311px;
+    height: 222px;
+    padding: 28px;
+  }
+  .middledivs {
+    gap: 22px;
+    width: 311px;
+  }
+  .describe {
+    width: 254px;
+  }
+  .img {
+    width: 57px;
+    height: 57px;
+    margin-left: 198px;
+    margin-top: 33px;
+  }
+  #leftdiv {
+    margin-top: 0px;
+  }
+  #rightdiv {
+    margin-top: 0px;
+  }
+}
